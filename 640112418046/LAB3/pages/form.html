@@ -1,0 +1,30 @@
+<form>
+    <input type="text"="user" id="">
+    <section>name="เกษม" id =""
+        <option value="" กรุณาเลือก></option>
+        <option value="" รองเท้า></option>
+        <option value="" กางเกง></option>
+
+    </section>
+    <button> type "supmit>SAVE</button>
+</form> 
+
+<script>
+
+let form = $(this);
+
+$("form").supmit((e)->(
+    e.preventDefault();
+
+    $.ajax({
+        data;form.sarialize
+        URL;"index.html",
+        method;"GET"
+        success; function (data){
+            console.log(data);
+        },
+    }),
+
+
+);
+</script>
