@@ -1,13 +1,15 @@
-<?php 
-echo "Hello PHP"
-phpinfo()
+<?php
+echo "Hello PHP !!";
+//phpinfo();
 
-$num = 10:
-$name = "Win"$_COOKIE
-echo $ GET ['name'];
-echo $ POST ['post'];
+$num = 10;
+$name = "Petch";
+
+echo "GET : " . $_GET['name'];
+echo "POST : " . $_POST['pass'];
 
 ?>
+
 <table border="1">
     <thead>
         <tr>
@@ -21,14 +23,14 @@ echo $ POST ['post'];
             <td><?php echo $name ?></td>
         </tr>
         <?php
-        for()(&1 =2: $1 <5; $++){
+            for($i = 2; $i < 5; $i++){
         ?>
-         <tr>
-            <td>2</td>
-            <td><?php $name?> Dum</td>
-         </tr>
+        <tr>
+            <td><?= $i ?></td>
+            <td><?= $name ?></td>
+        </tr>
         <?php
-        }
+            }
         ?>
     </tbody>
 </table>
